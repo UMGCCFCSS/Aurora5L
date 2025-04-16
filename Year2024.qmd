@@ -200,7 +200,7 @@ TheColumnNames <- TheIntermediate[str_detect(TheIntermediate, "-A")]
 UltraVioletGains <- TheColumnNames[str_detect(TheColumnNames, "^UV")]
 VioletGains <- TheColumnNames[str_detect(TheColumnNames, "^V")]
 BlueGains <- TheColumnNames[str_detect(TheColumnNames, "^B")]
-#YellowGreenGains <- TheColumnNames[str_detect(TheColumnNames, "^YG")]
+YellowGreenGains <- TheColumnNames[str_detect(TheColumnNames, "^YG")]
 RedGains <- TheColumnNames[str_detect(TheColumnNames, "^R")]
 
 ScatterGains <- TheColumnNames[str_detect(TheColumnNames, "SC-")]
