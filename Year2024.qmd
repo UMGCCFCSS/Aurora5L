@@ -60,7 +60,7 @@ The2024 <- HolisticToArchived(data=The2024, manufacturer="Cytek",
 ```
 
 ## {.sidebar}
-Dashboard contains historical datafrom **2024** for the **Cytek Aurora 5L**.
+Dashboard contains historical data from **2024** for the **Cytek Aurora 5L**.
 
 **First Column: MFI** Median Fluorescent Intensity (MFI) values for QC beads acquired Before and After QC. Measures stability over time. 
 

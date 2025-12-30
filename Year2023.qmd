@@ -218,8 +218,7 @@ UltraVioletPlotsGain <- QC_Plots(x=x, FailedFlag=FALSE, MeasurementType=UltraVio
                       RepairVisits=Maintenance)
 
 VioletPlotsGain <- QC_Plots(x=x, FailedFlag=FALSE, MeasurementType=VioletGains,
-                      plotType = "individual", returntype = "plots", strict = TRUE, YAxisLabel = "Gain",
-                      RepairVisits=Maintenance)
+                      plotType = "individual", returntype = "plots", strict = TRUE, YAxisLabel = "Gain", RepairVisits=Maintenance)
 
 BluePlotsGain <- QC_Plots(x=x, FailedFlag=FALSE, MeasurementType=BlueGains,
                       plotType = "individual", returntype = "plots", YAxisLabel = "Gain",
